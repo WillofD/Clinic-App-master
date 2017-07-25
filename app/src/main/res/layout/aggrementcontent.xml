@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/bg_parent_rounded_corner"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="@color/accent"
+        android:orientation="vertical"
+        android:id="@+id/exp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Addiction to screen is damaging our health"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:textSize="23sp"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="•	India is well ahead of global average in mobile usage for internet.80% of the internet users in India use mobile to access internet."
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="•	45% of mobile browsing by Indian is dedicated to entertainment"
+            android:textSize="20sp" />
+
+
+        <TextView
+        android:id="@+id/text_view4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_weight="50"
+        android:padding="10dp"
+        android:text="•	34% of the time spent on mobile was on social media  and messaging. (Mary Meekar report on global internet trend 2017)"
+        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_vie5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="•	Indian spend 28 hours on mobile very week"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_vie6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• 5.2% in the age group of 18-25 years have  addiction to social media. ( Sharma and Indu ,2012)"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_vie7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• 2750 users in the age group of 18-50 years were surveyed .They are found to have:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_vie8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Video addiction: 9.7%(10.5% males and 8.9%   females"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_vie9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Internet addiction: 1.2%(2% males and 0.6% females)"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_vie10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Excessive use of  video game and facebook use was present among 300 adolescents in the age group of 13-17 years.;20% experienced distress due to online sexual  content (Sharma et al 2014)"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/text_vie11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Every third patient with psychological problems got excessive use of technology. (Sharma et al 2015)"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_vie12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• The pattern of addiction  is more among the  single and lesser in people living in joint family. Sharma et al 2013) "
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/text_vie13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Internet addiction: 1.2%(2% males and 0.6% females)"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+    <include layout="@layout/contentagreetwo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/accent"
+        android:orientation="vertical"
+        android:id="@+id/con"
+
+        android:layout_height="fill_parent">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="@color/accent"
+            android:text="okey"
+            android:id="@+id/agreebtn"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    </ScrollView>
+</android.support.v7.widget.CardView>

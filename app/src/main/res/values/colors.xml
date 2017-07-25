@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <color name="primary">#1FC2D7</color>
+
+    <color name="primary_dark">#0097A7</color>
+
+    <color name="primary_light">#B2EBF2</color>
+
+    <color name="accent">#212121</color>
+
+    <color name="primary_text">#212121</color>
+
+    <color name="secondary_text">#757575</color>
+
+    <color name="icons">#FFFFFF</color>
+
+    <color name="divider">#BDBDBD</color>
+
+
+    <color name="feed_bg1">#372D2A</color>
+    <color name="white">#ffffff</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+</resources>

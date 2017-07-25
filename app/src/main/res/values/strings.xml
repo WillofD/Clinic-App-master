@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ShutClinic</string>
+    <string name="str_next">Next</string>
+    <string name="title_activity_result">Results!!!</string>
+    <string name="head1"></string>
+    <string name="head2"></string>
+    <string name="content2">Take break if your use exceed more than 30 minutes by stretching blinking your eyes/moving head forward/backward and clockwise and anticlockwise/stretching your arms and legs."</string>
+    <string name="content1">It is first step toward promotion of healthy use of technology.
+        I.Keep a log of your online activities for each day.
+        II keep a log of activities you are missing due to your engagement with online activities and others are raising concerns about your online activities
+        . III. Identify the situations associated with excessive use of online activities e.g boredom, lonliness etc.IV. Help your to understand /differentiate the work , recreational  nonpurposive  use of online activities"
+    </string>
+    <string name="adress">Address: NIMHANS centre for well being (NCWB),#1/B, 9th Main, 1st Phase, 1st Stage, BTM Layout, Bengaluru- 560076,Karnataka.  </string>
+    <string name="title_activity_aboutexp">Aboutexp</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_clinic_about_aativity">ClinicAboutAativity</string>
+    <string name="title_activity_suggestion">Suggestion</string>
+    <string name="title_activity_contact">Contact</string>
+</resources>

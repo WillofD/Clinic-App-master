@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/bg_parent_rounded_corner"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="@color/accent"
+        android:orientation="vertical"
+        android:id="@+id/exp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Are there consequences due to excessive use of screen : Yes,they are followings: "
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:textSize="23sp"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="16dp"
+            android:text="•	Physical: Eye strain/dryness of eyes, pain in neck ,sleep disturbance(delay in initiation of sleep/maintenance of sleep) ,backpain,and posture problems."
+
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="•	Psychological: Restlessness/irritability/psychological distress/ attentional / interpersonal problems/lack of self regulation or self harm in case of unavailability of gadget"
+
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+android:text="•	Academic disturbance: Report loss of grades due to preoccupation with online games."
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_view5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Life style disturbance: Decreased out door activities, change in eating habits, decreased self care and disturbance in relationship with others.	"
+
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/text_view6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Nomophobia: Fear of losing/not having mobile or sleeping with mobile phone"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_view7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Phamtom vibration syndrome: Experience vibration of mobile even though it is not vibrating."
+
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/text_view8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Users preferring online interaction in comparison to real relationship-lacking support to handle online rejection"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_view9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Experience of bullying while playing online games"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_view10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:text="• Excessive users got disturbance in cognitive functions(response inhibition and set shifting)(Sharma et al ,2017)"
+
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.CardView>
