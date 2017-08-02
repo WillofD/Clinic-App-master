@@ -90,7 +90,8 @@ public class QuizActivity extends Activity {
 
 
 		final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-		builder.setTitle("Register");
+		builder.setTitle("										Register");
+
 
 		final EditText name = new EditText(this);
 		final TextView tvname = new TextView(this);
@@ -103,7 +104,7 @@ public class QuizActivity extends Activity {
 		tvname.setTextSize(20);
 		tvgender.setText("Gender:");
 		tvgender.setTextSize(20);
-		tvcontactno.setText("contact no:");
+		tvcontactno.setText("Contact no:");
 		tvcontactno.setTextSize(20);
 		male.setHint("Male");
 		female.setHint("Female");

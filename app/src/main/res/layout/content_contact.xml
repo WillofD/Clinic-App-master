@@ -5,14 +5,14 @@
     android:layout_height="fill_parent">
 
     <android.support.v7.widget.CardView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_margin="10dp">
 
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:layout_weight="50"
             android:paddingBottom="20dp"
             android:paddingLeft="20dp"
@@ -42,6 +42,16 @@
                 android:layout_weight="25"
                 android:layout_height="wrap_content"
                 android:paddingTop="2dp"
+                android:text="Shut Clinic"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="25"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
                 android:text=" NIMHANS centre for well being (NCWB),#1/B, 9th Main, 1st Phase, 1st Stage, BTM Layout, Bengaluru- 560076,Karnataka."
                 android:textSize="20sp"
                 android:gravity="center" />
@@ -63,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:paddingTop="2dp"
-                android:text="shutclinic@gmail.com"
+                android:text="Shutclinic@gmail.com"
                 android:layout_gravity="center"
                 />
 
@@ -111,8 +121,8 @@
                 android:gravity="center"
                 android:layout_height="wrap_content"
                 android:paddingTop="2dp"
-               android:text="Ms.Suma S.N,Divakar R
-  Sumedh Rao,Department of Computer application ,(BU), DSI"
+               android:text="Ms.Suma S.N,Divakar R,
+  Sumedh Rao,Department of Computer application , DSI (BU)"
                 android:textSize="20sp"
                 android:layout_gravity="center"
                 android:id="@+id/textView6" />
@@ -129,6 +139,14 @@
                     android:layout_height="50dp"
                     android:src="@drawable/support"/>
             </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Supported By"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                />
+
 
             <ImageView
                 android:layout_width="200dp"
